@@ -1,8 +1,9 @@
-export const Note = ({content})=>
+export const Note = ({title, body})=>
 {
     return(
-        <li>
-            <p>{content}</p>
-        </li>
+      <li>
+        <p>{title}</p>
+        <small>{body}</small>
+      </li>
     )
 }
